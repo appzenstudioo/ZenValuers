@@ -11,24 +11,13 @@
    - **Add .gitignore & README** - NO (we have them)
 4. Click **Create repository**
 
-You'll see a page with commands like:
-```
-git remote add origin https://github.com/YOUR-USERNAME/ZenValuers.git
-git branch -m main
-git push -u origin main
-```
-
----
-
-## Step 2: Push to GitHub
-
-Copy the commands from GitHub and run in PowerShell:
+You'll see a page with commands. Copy this exact command:
 
 ```powershell
 cd C:\Users\gjslp\ZenValuers
 
 # Add remote GitHub repository
-git remote add origin https://github.com/YOUR-USERNAME/ZenValuers.git
+git remote add origin https://github.com/appzenstudioo/ZenValuers.git
 
 # Rename branch to main
 git branch -m main
@@ -36,8 +25,6 @@ git branch -m main
 # Push code to GitHub
 git push -u origin main
 ```
-
-**Replace `YOUR-USERNAME` with your actual GitHub username!**
 
 ---
 
@@ -53,7 +40,7 @@ git push -u origin main
 6. Wait 1-2 minutes
 7. Your site will be live at:
    ```
-   https://YOUR-USERNAME.github.io/ZenValuers
+   https://appzenstudioo.github.io/ZenValuers
    ```
 
 **Share this link with your client!** ✅
@@ -76,6 +63,8 @@ git push -u origin main
    https://RANDOM-NAME.netlify.app
    ```
 
+**Live URL:** `https://appzenstudioo.netlify.app` (or custom domain)
+
 **Benefits:**
 - Auto-deploys when you push to GitHub
 - Can customize domain later
@@ -96,7 +85,7 @@ git push -u origin main
 6. Click **Deploy**
 7. Your site will be live at:
    ```
-   https://zenvaluers.vercel.app
+   https://appzenstudioo-zenvaluers.vercel.app
    ```
 
 **Benefits:**
@@ -134,8 +123,8 @@ git push -u origin main
 ## 📱 Example Live URLs
 
 After deployment, you'll have:
-- **Repository:** https://github.com/YOUR-USERNAME/ZenValuers
-- **Live Site:** https://zenvaluers.vercel.app (or similar)
+- **Repository:** https://github.com/appzenstudioo/ZenValuers
+- **Live Site:** https://appzenstudioo-zenvaluers.vercel.app (or choose your name)
 
 **Share the LIVE SITE URL with your client, not the GitHub link**
 
@@ -174,7 +163,7 @@ git push origin main
 
 ### GitHub URL Structure:
 ```
-https://github.com/YOUR-USERNAME/ZenValuers
+https://github.com/appzenstudioo/ZenValuers
 ```
 
 **Private or Public?**
